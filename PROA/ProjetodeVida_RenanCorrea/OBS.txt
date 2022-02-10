@@ -1,0 +1,4 @@
+Gostaria de agradecer aos meus professores por toda ajuda fornecida.
+O uso de alguns projetos do portfólio está fora de acesso pelo uso do PHP, mostrando melhor o front-end.
+A navegação do site esta resumido apenas ao menu por melhor organização.
+Obrigado pela atenção.

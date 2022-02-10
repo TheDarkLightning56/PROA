@@ -1,0 +1,135 @@
+.corpo{
+	background-color:#4a9ccb;
+	color:#fff;
+	padding-top:50;
+	text-align:left;
+	font-size:18px;
+	width:100%;
+	margin:auto;
+	height:auto;
+}
+
+.corpo img{
+	width:200px;
+	padding:0 25 0 25;
+}
+
+.corpo h1{
+	font-size:30px;
+	padding-top:55px;
+	margin-left:15px;
+	text-align:center;
+}
+
+.capa{
+	float:left;
+	margin-top:10;
+	margin-left:50;
+	margin-right:0;
+	margin-bottom:10;
+}
+
+.legenda{
+	width:100%;
+	margin-top:10;
+	margin-left:40;
+	margin-right:0;
+	margin-bottom:10;
+	font-size:20px;
+}
+
+/* Ajuste do radapé */
+.geral {
+    min-height:100%;
+    position:relative;
+    top:auto;
+    width:1200px;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Introdução*/
+.intro1{
+	width:80%;
+	display:inline-block;
+	padding-left:55px;
+	padding-right:0px;
+	background-color:#4a9ccb;
+}
+
+.intro{
+	display:inline-block;
+	padding-left:10%;
+	padding-right:10%;
+	background-color:#4a9ccb;
+}
+.intro:hover{
+	background-color:rgba(0,0,0,0.5);
+}
+
+.introdois{
+	display:inline-block;
+	padding-left:10%;
+	padding-right:10%;
+	background-color:#57a8d7;
+}
+.introdois:hover{
+	background-color:rgba(0,0,0,0.5);
+}
+/*Conteúdo da review*/
+.review{
+	background-color:#4a9ccb;
+	color:#fff;
+	margin-top:0px;
+	padding-top:15px;
+	padding-left:200px;
+	padding-right:120px;
+	padding-bottom:1.5%;
+	text-align:justify;
+
+	-moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -moz-column-rule: 1px solid #ccc;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    -webkit-column-rule: 1px;
+}
+.title{
+	background-color:#2281DA; 
+	color:#fff;
+	text-align:center;
+	padding-top:15px;
+	margin-top:10px;
+	padding-bottom:15px;
+	display:block;
+	font-size:30px;
+	position:relative;
+}
+
+/*Comentários*/
+.comentario{
+	color:#000;
+	background-color:#ccc;
+	padding:0;
+	margin:auto;
+	padding-top:50px;
+	padding-bottom:150px;
+}
+
+/*Next e Prev(controles)*/
+.controles{
+	background-color:#2281DA;
+	display:block;
+	text-align:center;
+	margin:auto;
+	padding:15px;
+	font-size: 16px;
+}
+.controles a{
+	border-radius:10px;
+	border-style:none;
+	background-color:#d1216a;
+	padding:5px;
+	margin-left:auto;
+}

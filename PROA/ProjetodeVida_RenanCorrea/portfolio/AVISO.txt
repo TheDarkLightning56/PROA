@@ -1,0 +1,2 @@
+Essa pasta pode ser jogada diretamente no diretório do projeto de vida para link automatico no site.
+Coloque a esta pasta dentro da Pasta ProjetodeVida_RenanCorrea

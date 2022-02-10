@@ -1,0 +1,62 @@
+#conteiner {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 1200px;
+    height: 150px;
+    background-color: #00848c;
+}
+
+nav {
+    width: 1200px;
+    height: 50px;
+    background-color: darkblue;
+}
+
+aside {
+    width: 150px;
+    height: 540px;
+    background-color: #1c1f4c;
+}
+
+#conteiner1 {
+    width: 900px;
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#conteiner1>article {
+    width: 900px;
+    height: 180px;
+}
+
+#um {
+    background-color: #fccf17;
+}
+
+#dois {
+    background-color: orange;
+}
+
+#tres {
+    background-color: #fec20f;
+}
+
+#conteiner2 {
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #037272;
+}
+
+footer {
+    width: 1200px;
+    height: 50px;
+    background-color: #edebd9;
+}

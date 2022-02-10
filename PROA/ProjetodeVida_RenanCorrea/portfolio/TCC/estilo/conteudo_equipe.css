@@ -1,0 +1,188 @@
+.linha{
+	display:inline-block;
+	text-align:center;
+	width:100%;
+	padding-top:20px;
+	padding-left:0px;
+	padding-right:20px;
+	padding-bottom:0px; 
+}
+
+.corpo{
+	position:relative;
+	padding-top:100px;
+	width:80%;
+	margin:auto;
+	background-color:#57a8d7; 
+	height:auto; 
+}
+
+/*Girosflin*/
+.flip-card {
+  background-color: transparent;
+  width: 320px;
+  height: 320px;
+  padding:0px;
+  perspective: 1000px;
+  display: inline-block;
+  margin-right:5px;
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-left:0px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 10px;
+}
+
+.flip-card-back {
+  background-color: #000;
+  color: white;
+  transform: rotateX(180deg);
+  box-shadow: 1px 1px 10px white;
+  border-radius: 10px;
+}
+.linha img{
+	border-radius: 10px; 
+}
+/*Intro*/
+.intro{
+	background-color:#4a9ccb;
+	color:#fff;
+	margin:0;
+	padding:10px;
+	text-align:center;
+	font-size:35px;
+}
+.parte{
+	margin-bottom:30%;
+	padding:20 155 20 155;
+	font-size:20px;
+	text-align: justify;
+	color:#000;
+}
+.informa{
+	margin-top:130;
+}
+
+/*Redes sociais*/
+.social{
+	display:block;
+	text-align:center;
+	margin-top:-30%;
+	margin-bottom:60%:
+}
+/*Cartão*/
+.cartao{
+	background-color:#fff;
+	display:block;
+	color:#000;
+	width:60%;
+  margin-top:15px;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 1px 1px 10px black;
+}
+
+.cartao:hover{
+  box-shadow: 1px 1px 10px blue;
+}
+
+.cartao img{
+  width:100%;
+}
+/*Titulo*/
+.title{
+  background-color:#4a9ccb; 
+  color:#fff;
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:10;
+  margin-top:0px;
+  margin-bottom:10;
+  display:block;
+  font-size:25px;
+  position:relative;
+}
+/*Legenda do cartão*/
+.legendinha{
+  padding:10px;
+  text-align:center;
+  background-color:#ccc;
+}
+
+/*Controles*/
+.controles{
+  background-color:#2281DA;
+  display:block;
+  text-align:center;
+  margin:auto;
+  padding:15px;
+}
+.controles a{
+  border-radius:10px;
+  border-style:none;
+  background-color:#d1216a;
+  padding:5px;
+  margin-left:auto;
+}
+/*Resumo sobre desenho*/
+.escrita{
+  margin-top:10px;
+  padding-left: 85px;
+  padding-right: 85px;
+  text-align:center;
+  font-size:18px;
+  color:#fff;
+}
+/*Títulos menores*/
+h3{
+  background-color:#4a9ccb; 
+  color:#fff;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10;
+  margin-top:15px;
+  margin-bottom:10px;
+  display:block;
+  font-size:20px;
+}
+.fzvideo{
+  padding-left:24.5%;
+  padding-right:24.5%;
+  padding-top:0px;
+  padding-bottom:10;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+/*Banners*/
+.banner{
+  background-color:#000;
+}
+.banner img{
+  width:100%;
+}

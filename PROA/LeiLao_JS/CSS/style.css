@@ -1,0 +1,92 @@
+body {
+    background-image: url(https://i.pinimg.com/564x/6a/bd/d1/6abdd108b8b18899d15db7cedaa1d499.jpg);
+}
+
+#st {
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    flex-flow: wrap row;
+    background-color: grey;
+    color: red;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#logo {
+    margin-left: 10px;
+}
+
+#nd {
+    width: 1200px;
+    height: 300px;
+    margin: auto 0;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: black;
+    margin-left: 50px;
+    color: red;
+}
+
+#img {
+    margin: 10px 0px 100px 100px;
+}
+
+#rd {
+    width: 1200px;
+    height: 320px;
+    margin: auto 0;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: red;
+    margin-left: 50px;
+    color: white;
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    background-color: black;
+    margin-left: 450px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+button {
+    background-color: black;
+    color: red;
+    border: red 2px solid;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    border: white 2px solid;
+    border-radius: 50px;
+}
+
+#th {
+    width: 1200px;
+    height: 200px;
+    margin: auto 0;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: lightgrey;
+    margin-left: 50px;
+}
+
+#lres {
+    background-color: grey;
+    text-align: justify;
+    margin-left: 350px;
+    margin-top: 10px;
+    border-radius: 30px;
+    width: 500px;
+    height: 150px;
+}
+
+#res {
+    margin-left: 60px;
+    margin-top: 10px;
+}

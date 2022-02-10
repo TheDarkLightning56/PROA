@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+
+<body>
+    <script>
+        var Cidades = ["São Paulo", "Recife", "Vitória", "Aracaju"];
+        Cidades[1] = "Paraty";
+        Cidades[4] = "Buenos Aires";
+        Cidades.push("Blumenau");
+        Cidades.push("Ouro Preto");
+
+
+        for (let i = 0; i < Cidades.length; i++) {
+            document.write(Cidades[i] + "<br>");
+
+
+        }
+
+        quant = Cidades.length;
+        document.write("<br> <br>Comprimento do Array: " + quant);
+
+        Cidades.pop();
+        document.write("Cidade Excluida");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX1</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <script>
+        var idade
+
+        idade = parseInt(prompt("Digite sua Idade:"));
+
+
+        if (idade <= 18) {
+            document.write("Proibida a venda de bebida para menores de idade");
+        } else {
+            if (idade >= 18 && idade <= 65) {
+                document.write("Venda de Bebida Liberada");
+
+            } else {
+                document.write("Cuidado! \nBebidas alcóolicas pode te fazer muito mal");
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>

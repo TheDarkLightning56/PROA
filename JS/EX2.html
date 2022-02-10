@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let notas = [];
+        let nome;
+
+        nome = prompt("Nome do Aluno:")
+
+        notas.push(Number(prompt("1º Nota:")));
+        notas.push(Number(prompt("2º Nota:")));
+        notas.push(Number(prompt("3º Nota:")));
+        notas.push(Number(prompt("4º Nota:")));
+
+
+        let soma = notas[0] + notas[1] + notas[2] + notas[3];
+
+        /*for (let j = 0; j <= notas.length; j++) {
+            soma += notas[j];
+        }*/
+
+        let media = soma / 4;
+
+        document.write(nome + ",  sua média final é " + media);
+        document.write("<br> Suas notas foram:<br>");
+        let cont = 1
+
+
+        for (let i = 0; i < notas.length; i++) {
+
+            document.write(cont + "º nota:" + notas[i] + "<br>");
+            cont++;
+
+        }
+    </script>
+</body>
+
+</html>

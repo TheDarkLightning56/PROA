@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leilão Correa</title>
+    <link rel="stylesheet" href="CSS/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script type="text/javascript" src="JS/script01.js"></script>
+</head>
+
+<body>
+    <div id="st">
+        <center><img id="logo" src="image/ajlogo.png" width=100px height=80px></center>
+    </div>
+
+
+
+    <div id="nd">
+        <article id="img">
+            <img id="logo" src="image/aj1off.png" width=150px height=100px> Air Jordan 1 Off-White
+            <img id="logo" src="image/aj1royal.png" width=150px height=100px>Air Jordan 1 Royal Blue
+            <img id="logo" src="image/ajcact.png" width=180px height=120px>Air Jordan 1 Cactus Jack
+            <img id="logo" src="image/aj1pine.png" width=150px height=100px>Air Jordan 1 Pine Green
+            <img id="logo" src="image/aj12.png" width=150px height=80px>Air Jordan 12 Gym Red
+            <img id="logo" src="image/aj6.png" width=150px height=100px>Air Jordan 6 Reflections
+        </article>
+    </div>
+
+    <div id="rd">
+        <form name="form1" method="GET">
+            <fieldset>
+                <label for="nome">Digite Seu Nome: <input type="text" id="nome" name="nome"></label>
+
+                <label for="produto">Selecione o produto desejado:
+        <select id="produto">
+            <option value="Air Jordan 1 Off-White">Air Jordan 1 Off-White</option>
+            <option value="Air Jordan 1 Royal Blue">Air Jordan 1 Royal Blue</option>
+            <option value="Air Jordan 1 Low Cactus Jack">Air Jordan 1 Low Cactus Jack</option>
+            <option value="Air Jordan 1 Pine Green">Air Jordan 1 Pine Green</option>
+            <option value="Air Jordan 12 Gym Red">Air Jordan 12 Gym Red</option>
+            <option value="Air Jordan 6 Reflections">Air Jordan 6 Reflections</option>
+        </select>
+        </label>
+
+                <label for="preco">Digite o Preço: <br><input type="text" id="preco" name="preco"></label>
+
+                <label for="quant">Quantidade de Pares: <input type="text" id="quant" name="quant"></label>
+                <br>
+
+                <button type="button" id="button" onclick="Comprar()">Comprar</button>
+                <br>
+                <br>
+
+        </form>
+    </div>
+    <div id="th">
+        <article id="lres">
+            <p id="res"></p>
+        </article>
+    </div>
+</body>
+
+</html>
